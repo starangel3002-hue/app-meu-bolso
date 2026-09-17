@@ -3,7 +3,7 @@ import { Text, KeyboardAvoidingView, StyleSheet, Platform, Alert } from 'react-n
 import { router } from 'expo-router';
 import AppInput from '../src/componentes/AppInput';
 import AppButton from '../src/componentes/AppButton';
-import { supabase } from '../src/services/supabase';
+import { supabase } from '../src/componentes/services/supabase';
 
 export default function Register() {
   const [email, setEmail] = useState('');

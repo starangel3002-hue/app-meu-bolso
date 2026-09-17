@@ -3,7 +3,7 @@ import { StyleSheet, View, Text, TouchableOpacity, KeyboardAvoidingView, Platfor
 import { router } from 'expo-router';
 import AppInput from '../src/componentes/AppInput';
 import AppButton from '../src/componentes/AppButton';
-import { supabase } from '../src/services/supabase';
+import { supabase } from '../src/componentes/services/supabase';
 
 export default function Login() {
   const [email, setEmail] = useState('');
